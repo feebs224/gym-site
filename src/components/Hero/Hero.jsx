@@ -12,6 +12,16 @@ const Hero = () => {
           <div></div>
           <span>the best fitness club in town</span>
         </div>
+
+        <div className="hero-text">
+          <div>
+            <span className="stroke-text">Shape </span>
+            <span>Your</span>
+          </div>
+          <div>
+            <span>Ideal Body</span>
+          </div>
+        </div>
       </div>
 
       <div className="right-h">right side</div>
