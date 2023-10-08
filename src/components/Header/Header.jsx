@@ -5,7 +5,14 @@ import Logo from "../../assets/logo.png";
 const Header = () => {
   return (
     <div className="header">
-      <img src={Logo} alt="Fit Club Logo" />
+      <img src={Logo} className="logo" alt="Fit Club Logo" />
+      <ul className="header-menu">
+        <li>Home</li>
+        <li>Programs</li>
+        <li>Why Us</li>
+        <li>Plans</li>
+        <li>Testimonials</li>
+      </ul>
     </div>
   );
 };
