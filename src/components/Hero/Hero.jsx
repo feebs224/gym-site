@@ -4,7 +4,6 @@ import Header from "../Header/Header";
 import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
-import Calories from "../../assets/calories.png";
 
 const Hero = () => {
   return (
@@ -27,21 +26,6 @@ const Hero = () => {
           </div>
           <div class="subheading">
             <span>Let us help you shape your ideal body!</span>
-          </div>
-        </div>
-
-        <div className="figures">
-          <div>
-            <span>+140</span>
-            <span>expert coaches</span>
-          </div>
-          <div>
-            <span>+978</span>
-            <span>members joined</span>
-          </div>
-          <div>
-            <span>+50</span>
-            <span>fitness programs</span>
           </div>
         </div>
 
@@ -69,6 +53,21 @@ const Hero = () => {
           alt="athletic man tying shoelaces"
           className="hero-image-back"
         />
+
+        <div className="figures">
+          <div>
+            <span>+140</span>
+            <span>expert coaches</span>
+          </div>
+          <div>
+            <span>+978</span>
+            <span>members joined</span>
+          </div>
+          <div>
+            <span>+50</span>
+            <span>fitness programs</span>
+          </div>
+        </div>
       </div>
     </div>
   );
